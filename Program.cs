@@ -33,5 +33,9 @@ app.MapControllerRoute(
 
 app.Run();
 
-AWS_ACCESS_KEY_ID="AKIAIOSFODNN7EXAMPLE"
-AWS_SECRET_ACCESS_KEY="1234CV76N89"
+    # Example of a fake AWS Access Key ID
+AWS_ACCESS_KEY_ID=AKIAYVP4CIPPERUVIFXG
+    # Example of a generic API key
+API_KEY=sk_test_1234567890abcdefghijklmnopqrstuvwxyz
+    # Example of a database connection string with a fake password
+DATABASE_URL=mysql://user:password123@localhost:3306/mydb
